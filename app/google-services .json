@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535828007057",
+    "firebase_url": "https://partycalculator-d4582.firebaseio.com",
+    "project_id": "partycalculator-d4582",
+    "storage_bucket": "partycalculator-d4582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535828007057:android:e3387cabf01c50fb",
+        "android_client_info": {
+          "package_name": "com.example.bogdan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535828007057-386h6mfvfk76v4hs214a9thqgadbhc2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bogdan",
+            "certificate_hash": "3A59B3B4F8FFF6DC3C5E387112A06CBEC5262C74"
+          }
+        },
+        {
+          "client_id": "535828007057-vsrqlfqbkeetm4epdul2qnhku2ec1tvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOSnrKSAw1JaiymgbGMK4j3irTn8WTNxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535828007057-vsrqlfqbkeetm4epdul2qnhku2ec1tvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
