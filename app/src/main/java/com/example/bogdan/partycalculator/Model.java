@@ -5,6 +5,6 @@ package com.example.bogdan.partycalculator;
  * @version 1
  * @date 19.08.16
  */
-public class Database {
-    
+public class Model {
+
 }
