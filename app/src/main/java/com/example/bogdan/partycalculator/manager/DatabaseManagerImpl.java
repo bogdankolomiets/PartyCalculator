@@ -1,4 +1,7 @@
-package com.example.bogdan.partycalculator;
+package com.example.bogdan.partycalculator.manager;
+
+import com.example.bogdan.partycalculator.entity.Event;
+import com.example.bogdan.partycalculator.manager.DatabaseManager;
 
 import java.util.ArrayList;
 import java.util.List;

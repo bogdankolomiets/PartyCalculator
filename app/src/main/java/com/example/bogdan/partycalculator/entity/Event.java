@@ -1,4 +1,4 @@
-package com.example.bogdan.partycalculator;
+package com.example.bogdan.partycalculator.entity;
 
 import com.example.bogdan.partycalculator.entity.EventMember;
 
