@@ -1,7 +1,5 @@
 package com.example.bogdan.partycalculator.entity;
 
-import com.example.bogdan.partycalculator.entity.EventMember;
-
 import java.util.List;
 
 /**
@@ -13,6 +11,7 @@ public class Event {
     private String mId;
     private String mName;
     private String mDate;
+    private double mBudget;
     private List<EventMember> mMembers;
 
     public Event() {
@@ -29,6 +28,14 @@ public class Event {
 
     public String getDate() {
         return mDate;
+    }
+
+    public double getBudget() {
+        return mBudget;
+    }
+
+    public int getMembersCount() {
+        return mMembers.size();
     }
 
     public List<EventMember> getMembers() {

@@ -1,6 +1,10 @@
 package com.example.bogdan.partycalculator;
 
-import com.example.bogdan.partycalculator.manager.DatabaseManagerImpl;
+import com.example.bogdan.partycalculator.entity.Event;
+import com.example.bogdan.partycalculator.model.Model;
+import com.example.bogdan.partycalculator.ui.MainView;
+
+import java.util.List;
 
 import javax.inject.Inject;
 
@@ -11,15 +15,16 @@ import javax.inject.Inject;
  */
 public class MainPresenter {
     private final MainView mView;
-    private final DatabaseManagerImpl mDatabaseManager;
+    private final Model mModel;
 
     @Inject
-    public MainPresenter(MainView view, DatabaseManagerImpl databaseManager) {
+    public MainPresenter(MainView view, Model model) {
         mView = view;
-        mDatabaseManager = databaseManager;
+        mModel = model;
     }
 
     public void onResume() {
-        mView.showEvents(mDatabaseManager.getEvents());
+        List<Event> events = mModel.getEvents();
+        mView.showEvents(mModel.getEvents());
     }
 }
