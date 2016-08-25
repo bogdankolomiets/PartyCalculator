@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PartyCalculator</string>
+    <string name="type_name_hint">Имя</string>
+    <string name="type_money_hint">Сумма</string>
 </resources>

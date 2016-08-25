@@ -1,6 +1,6 @@
 package com.example.bogdan.partycalculator.di;
 
-import com.example.bogdan.partycalculator.MainPresenter;
+import com.example.bogdan.partycalculator.presenter.MainPresenter;
 import com.example.bogdan.partycalculator.ui.MainView;
 import com.example.bogdan.partycalculator.model.Model;
 

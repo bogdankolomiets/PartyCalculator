@@ -1,4 +1,4 @@
-package com.example.bogdan.partycalculator;
+package com.example.bogdan.partycalculator.presenter;
 
 import com.example.bogdan.partycalculator.entity.Event;
 import com.example.bogdan.partycalculator.model.Model;

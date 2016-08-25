@@ -1,5 +1,6 @@
 package com.example.bogdan.partycalculator.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import com.example.bogdan.partycalculator.App;
-import com.example.bogdan.partycalculator.MainPresenter;
+import com.example.bogdan.partycalculator.presenter.MainPresenter;
 import com.example.bogdan.partycalculator.R;
 import com.example.bogdan.partycalculator.di.MainViewModule;
 import com.example.bogdan.partycalculator.entity.Event;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @OnClick(R.id.fabAddEvent)
     public void newEvent() {
-        
+        startActivity(new Intent(this, NewEventActivity.class));
     }
 
     @Override

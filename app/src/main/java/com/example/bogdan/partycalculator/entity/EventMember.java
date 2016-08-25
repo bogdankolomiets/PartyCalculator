@@ -9,6 +9,10 @@ public class EventMember {
     private String mName;
     private double mMoney;
 
+    public EventMember() {
+
+    }
+
     public EventMember(String name, double money) {
         mName = name;
         mMoney = money;
